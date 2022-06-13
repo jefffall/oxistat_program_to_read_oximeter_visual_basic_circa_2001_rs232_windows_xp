@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsOrg" targetNamespace="http://www.tempuri.org/dsOrg.xsd" xmlns:mstns="http://www.tempuri.org/dsOrg.xsd" xmlns="http://www.tempuri.org/dsOrg.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsOrg" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="OrgTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax_x0020_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Organization" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgID" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgKey" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Phone_x0020_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CrystalReportsRptData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr2" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr3" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr4" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr5" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr6" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr7" type="xs:string" minOccurs="0" />
+              <xs:element name="Expr8" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="AnalysisData" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="averageHR" type="xs:int" minOccurs="0" />
+              <xs:element name="AverageSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="Comments" type="xs:string" minOccurs="0" />
+              <xs:element name="DateOfReport" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DesatIncidenceIndex" type="xs:int" minOccurs="0" />
+              <xs:element name="DesatLessThan3minsAvgTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DesatLessThen3minsAvgTimeInMin" type="xs:int" minOccurs="0" />
+              <xs:element name="DesatLessThen3minsAvgTimeInSec" type="xs:int" minOccurs="0" />
+              <xs:element name="DesatlessThen3minsNum" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver3minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver4minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver4minTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="desatUnder1minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder1minTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="desatUnder2minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder2minTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="desatUnder3minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder3minTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="desatUnder4minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder4minTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExcludedData" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="highHR" type="xs:int" minOccurs="0" />
+              <xs:element name="HighSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="LongestDesatCustomDuration" type="xs:int" minOccurs="0" />
+              <xs:element name="LongestDesatCustomValue" type="xs:int" minOccurs="0" />
+              <xs:element name="lowHR" type="xs:int" minOccurs="0" />
+              <xs:element name="LowSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="OrgAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgCity" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgName" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgOfficeFax" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgOfficePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgState" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgZipCode" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientCity" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientFax" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientFirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientID" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientLastName" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientState" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientZip" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordedData" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ReportID" type="xs:string" minOccurs="0" />
+              <xs:element name="RptDataKey" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+              <xs:element name="SpO2custom" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeSpO260" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSpO270" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSpO280" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSpO290" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSpO2custom" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OrgTable" />
+      <xs:field xpath="mstns:OrgKey" />
+    </xs:unique>
+    <xs:unique name="CrystalReportsRptData_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CrystalReportsRptData" />
+      <xs:field xpath="mstns:Expr8" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

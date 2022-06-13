@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsOrgForm1" targetNamespace="http://www.tempuri.org/dsOrgForm1.xsd" xmlns:mstns="http://www.tempuri.org/dsOrgForm1.xsd" xmlns="http://www.tempuri.org/dsOrgForm1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsOrgForm1" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="OrgTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax_x0020_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Organization" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgID" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgKey" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="Phone_x0020_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OrgTable" />
+      <xs:field xpath="mstns:OrgKey" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsRpt" targetNamespace="http://www.tempuri.org/dsRpt.xsd" xmlns:mstns="http://www.tempuri.org/dsRpt.xsd" xmlns="http://www.tempuri.org/dsRpt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsRpt" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="CrystalReportsRptData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AnalysisData" type="xs:string" minOccurs="0" />
+              <xs:element name="averageHR" type="xs:int" minOccurs="0" />
+              <xs:element name="AverageSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="CollectionEndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CollectionStartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Comments" type="xs:string" minOccurs="0" />
+              <xs:element name="CustomerID" type="xs:string" minOccurs="0" />
+              <xs:element name="DateOfReport" type="xs:string" minOccurs="0" />
+              <xs:element name="DesatIncidenceIndex" type="xs:double" minOccurs="0" />
+              <xs:element name="DesatLessThan3minsAvgTime" type="xs:string" minOccurs="0" />
+              <xs:element name="DesatLessThen3minsAvgTimeInMin" type="xs:int" minOccurs="0" />
+              <xs:element name="DesatLessThen3minsAvgTimeInSec" type="xs:int" minOccurs="0" />
+              <xs:element name="DesatlessThen3minsNum" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver3minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver4minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatOver4minTime" type="xs:string" minOccurs="0" />
+              <xs:element name="desatUnder1minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder1minTime" type="xs:string" minOccurs="0" />
+              <xs:element name="desatUnder2minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder2minTime" type="xs:string" minOccurs="0" />
+              <xs:element name="desatUnder3minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder3minTime" type="xs:string" minOccurs="0" />
+              <xs:element name="desatUnder4minCount" type="xs:int" minOccurs="0" />
+              <xs:element name="desatUnder4minTime" type="xs:string" minOccurs="0" />
+              <xs:element name="ExcludedData" type="xs:string" minOccurs="0" />
+              <xs:element name="ExcludedEventsCount" type="xs:int" minOccurs="0" />
+              <xs:element name="highHR" type="xs:int" minOccurs="0" />
+              <xs:element name="HighSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="LongestDesatCustomDuration" type="xs:int" minOccurs="0" />
+              <xs:element name="LongestDesatCustomValue" type="xs:int" minOccurs="0" />
+              <xs:element name="lowHR" type="xs:int" minOccurs="0" />
+              <xs:element name="LowSpO2" type="xs:int" minOccurs="0" />
+              <xs:element name="OrgAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgCity" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgID" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgName" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgOfficeFax" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgOfficePhone" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgState" type="xs:string" minOccurs="0" />
+              <xs:element name="OrgZipCode" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientCity" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientFax" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientFirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientID" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientLastName" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientPhone" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientState" type="xs:string" minOccurs="0" />
+              <xs:element name="PatientZip" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordedData" type="xs:string" minOccurs="0" />
+              <xs:element name="ReportID" type="xs:string" minOccurs="0" />
+              <xs:element name="RequestingMD" type="xs:string" minOccurs="0" />
+              <xs:element name="RptDataKey" msdata:AutoIncrement="true" type="xs:int" />
+              <xs:element name="SpO2custom" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeSpO260" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO260Percent" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO270" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO270Percent" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO280" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO280Percent" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO290" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO290Percent" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO2custom" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeSpO2CustomPercent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CrystalReportsRptData" />
+      <xs:field xpath="mstns:RptDataKey" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
